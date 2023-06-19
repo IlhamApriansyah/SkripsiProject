@@ -34,7 +34,7 @@
                                         </div>
                                         <div class="mb-3">
                                             <button class="btn btn-primary">Login</button>
-                                            <a class="btn btn-danger" href="{{ route('home') }}">Back</a>
+                                            <a class="btn btn-danger" href="{{ route('home') }}">Kembali</a>
                                         </div>
                                         <div class="w-100 text-center mt-4 text">
                                             <p class="mb-0">Belum punya akun?</p>
