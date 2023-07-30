@@ -1,0 +1,6 @@
+Manual Guide Apps (developer) :
+- hidupkan port untuk laravel
+- kemudian, ketik ./ngrok.exe start --all
+- lalu, compile arduino nya untuk mendapatkan IPAddress terbaru
+- (opsional) rubah IPAddress nya di C:\Users\Ilham\AppData\Local/ngrok/ngrok.yml
+- akses website seperti biasa

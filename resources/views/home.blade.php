@@ -5,11 +5,11 @@
             <b>{{ Auth::user()->name }}</b>
             <p class="text-center">Silahkan akses beberapa fitur berikut :</p>
         </h3>
-        <p>
-        <a class="btn btn-primary" href="http://192.168.0.18/"> Buka Tutup Kunci </a>
-        </p>
-        <a class="btn btn-primary" href="{{ route('password') }}">Ganti Password</a>
-        <a class="btn btn-danger" href="{{ route('logout') }}">Logout</a>
+        <div class="container-fluid">
+            <a class="btn btn-primary" href="http://192.168.225.31/"> Buka Tutup Kunci </a>
+            <a class="btn btn-primary" href="{{ route('password') }}">Ganti Password</a>
+            <a class="btn btn-danger" href="{{ route('logout') }}">Logout</a>
+        </div>
     @endauth
     @guest
         <!doctype html>
